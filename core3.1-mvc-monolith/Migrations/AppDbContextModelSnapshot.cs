@@ -4,7 +4,6 @@ using core3._1_mvc_monolith.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace core3._1_mvc_monolith.Migrations
 {

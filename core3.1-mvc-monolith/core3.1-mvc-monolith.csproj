@@ -8,7 +8,6 @@
   <ItemGroup>
     <Folder Include="Areas\Identity\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Models\" />
     <Folder Include="Controllers\" />
     <Folder Include="Components\" />
     <Folder Include="Views\" />
