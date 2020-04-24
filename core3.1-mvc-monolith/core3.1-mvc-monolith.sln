@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core3.1-mvc-monolith", "core3.1-mvc-monolith.csproj", "{B36B8C7D-2D41-4746-BF0C-562BD2BEA2C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B36B8C7D-2D41-4746-BF0C-562BD2BEA2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36B8C7D-2D41-4746-BF0C-562BD2BEA2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36B8C7D-2D41-4746-BF0C-562BD2BEA2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36B8C7D-2D41-4746-BF0C-562BD2BEA2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B42EDC43-8FFA-4F3D-A47B-611EDC5B68B9}
+	EndGlobalSection
+EndGlobal

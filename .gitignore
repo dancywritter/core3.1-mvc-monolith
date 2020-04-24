@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/core3.1-mvc-monolith/obj
+/.vs
+/core3.1-mvc-monolith/.vs/core3.1-mvc-monolith/v16
+/core3.1-mvc-monolith/Properties
