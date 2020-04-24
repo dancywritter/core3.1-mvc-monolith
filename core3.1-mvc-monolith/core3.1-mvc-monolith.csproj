@@ -10,6 +10,9 @@
     <Folder Include="Migrations\" />
     <Folder Include="Controllers\" />
     <Folder Include="Components\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Mocks\" />
+    <Folder Include="Repository\" />
     <Folder Include="Views\" />
     <Folder Include="ViewModels\" />
     <Folder Include="wwwroot\Images\thumbnails\" />
