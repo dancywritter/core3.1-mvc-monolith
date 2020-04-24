@@ -25,9 +25,9 @@ namespace core3._1_mvc_monolith.Models
             base.OnModelCreating(modelBuilder);
 
             //seed categories
-            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 1, CategoryName = "Fruit Pizzas" });
-            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 2, CategoryName = "Cheese cakes" });
-            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 3, CategoryName = "Seasonal Pizzas" });
+            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 1, CategoryName = "Spicy Pizzas" });
+            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 2, CategoryName = "Meat Pizzas" });
+            modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 3, CategoryName = "Vegetarian Pizzas" });
 
             //seed Pizzas
 

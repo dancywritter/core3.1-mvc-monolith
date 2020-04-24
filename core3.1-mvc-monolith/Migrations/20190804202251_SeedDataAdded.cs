@@ -9,17 +9,17 @@ namespace core3._1_mvc_monolith.Migrations
             migrationBuilder.InsertData(
                 table: "Categories",
                 columns: new[] { "CategoryId", "CategoryName", "Description" },
-                values: new object[] { 1, "Fruit Pizzas", null });
+                values: new object[] { 1, "Spicy Pizzas", null });
 
             migrationBuilder.InsertData(
                 table: "Categories",
                 columns: new[] { "CategoryId", "CategoryName", "Description" },
-                values: new object[] { 2, "Cheese cakes", null });
+                values: new object[] { 2, "Meat Pizzas", null });
 
             migrationBuilder.InsertData(
                 table: "Categories",
                 columns: new[] { "CategoryId", "CategoryName", "Description" },
-                values: new object[] { 3, "Seasonal Pizzas", null });
+                values: new object[] { 3, "Vegetarian Pizzas", null });
 
             migrationBuilder.InsertData(
                 table: "Pizzas",

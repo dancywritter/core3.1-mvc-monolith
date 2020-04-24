@@ -10,9 +10,9 @@ namespace core3._1_mvc_monolith.Models
         public IEnumerable<Category> AllCategories =>
             new List<Category>
             {
-                new Category{CategoryId=1, CategoryName="Fruit Pizzas", Description="All-fruity Pizzas"},
-                new Category{CategoryId=2, CategoryName="Cheese cakes", Description="Cheesy all the way"},
-                new Category{CategoryId=3, CategoryName="Seasonal Pizzas", Description="Get in the mood for a seasonal Pizza"}
+                new Category{CategoryId=1, CategoryName="Spicy Pizzas", Description="All-Spicyy Pizzas"},
+                new Category{CategoryId=2, CategoryName="Meat Pizzas", Description="Cheesy all the way"},
+                new Category{CategoryId=3, CategoryName="Vegetarian Pizzas", Description="Get in the mood for a Vegetarian Pizza"}
             };
     }
 }

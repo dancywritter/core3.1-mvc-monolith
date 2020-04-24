@@ -9,6 +9,8 @@
     <Folder Include="Areas\Identity\" />
     <Folder Include="Migrations\" />
     <Folder Include="Models\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="ViewModels\" />
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 

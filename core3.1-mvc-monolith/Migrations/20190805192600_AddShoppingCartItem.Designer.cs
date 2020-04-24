@@ -39,17 +39,17 @@ namespace core3._1_mvc_monolith.Migrations
                         new
                         {
                             CategoryId = 1,
-                            CategoryName = "Fruit Pizzas"
+                            CategoryName = "Spicy Pizzas"
                         },
                         new
                         {
                             CategoryId = 2,
-                            CategoryName = "Cheese cakes"
+                            CategoryName = "Meat Pizzas"
                         },
                         new
                         {
                             CategoryId = 3,
-                            CategoryName = "Seasonal Pizzas"
+                            CategoryName = "Vegetarian Pizzas"
                         });
                 });
 
