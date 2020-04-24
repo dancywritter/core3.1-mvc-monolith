@@ -13,7 +13,8 @@
     <Folder Include="Components\" />
     <Folder Include="Views\" />
     <Folder Include="ViewModels\" />
-    <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\Images\thumbnails\" />
+    <Folder Include="wwwroot\Images\pizzas\" />
   </ItemGroup>
 
   <ItemGroup>

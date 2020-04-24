@@ -21,19 +21,6 @@ namespace core3._1_mvc_monolith.Controllers
             _categoryRepository = categoryRepository;
         }
 
-        // GET: /<controller>/
-        //public IActionResult List()
-        //{
-        //    //ViewBag.CurrentCategory = "Cheese cakes";
-
-        //    //return View(_PizzaRepository.AllPizzas);
-        //    PizzasListViewModel PizzasListViewModel = new PizzasListViewModel();
-        //    PizzasListViewModel.Pizzas = _PizzaRepository.AllPizzas;
-
-        //    PizzasListViewModel.CurrentCategory = "Cheese cakes";
-        //    return View(PizzasListViewModel);
-        //}
-
         public ViewResult List(string category)
         {
             IEnumerable<Pizza> Pizzas;

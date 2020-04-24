@@ -60,9 +60,9 @@ footer {
     background-image: none;
 }
 
-.navbar-inverse {
-    background-color: #a593c2;
-    border-color: #a593c2;
+.navbar-inverse {    
+    background-color: #000000;
+    border-color: #ffffff;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -93,6 +93,11 @@ footer {
 }
 
 .btn {
-    background-color: #fcaeae !important;
-    border-color: #fba1a1 !important;
+    background-color: #000000 !important;
+    border-color: #ffffff !important;
+}
+.btn-default {
+    color: #ffffff !important;
+    background-color: #000000 !important;
+    border-color: #ffffff !important;
 }

@@ -40,10 +40,10 @@ namespace core3._1_mvc_monolith.Models
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 1,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/applePizza.jpg",
+                ImagePath = "~/Images/pizzas/cheese-pizza.png",
                 InStock = true,
                 IsPizzaOfTheWeek = true,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/applePizzasmall.jpg",
+                ImageThumbnailPath = "~/Images/pizzas/cheese-pizza.png",
                 AllergyInformation = ""
             });
 
@@ -56,11 +56,11 @@ namespace core3._1_mvc_monolith.Models
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 2,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/blueberrycheesecake.jpg",
+                ImagePath = "~/Images/pizzas/cheese-pizza.png",
                 InStock = true,
                 IsPizzaOfTheWeek = false,
-                ImageThumbnailUrl =
-                    "https://gillcleerenpluralsight.blob.core.windows.net/files/blueberrycheesecakesmall.jpg",
+                ImageThumbnailPath =
+                    "~/Images/pizzas/cheese-pizza.png",
                 AllergyInformation = ""
             });
 
@@ -73,10 +73,10 @@ namespace core3._1_mvc_monolith.Models
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 2,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cheesecake.jpg",
+                ImagePath = "~/Images/pizzas/cheese-pizza.png",
                 InStock = true,
                 IsPizzaOfTheWeek = false,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cheesecakesmall.jpg",
+                ImageThumbnailPath = "~/Images/pizzas/cheese-pizza.png",
                 AllergyInformation = ""
             });
 
@@ -89,10 +89,10 @@ namespace core3._1_mvc_monolith.Models
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 1,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cherryPizza.jpg",
+                ImagePath = "~/Images/pizzas/cheese-pizza.png",
                 InStock = true,
                 IsPizzaOfTheWeek = false,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cherryPizzasmall.jpg",
+                ImageThumbnailPath = "~/Images/pizzas/cheese-pizza.png",
                 AllergyInformation = ""
             });
 
@@ -105,11 +105,11 @@ namespace core3._1_mvc_monolith.Models
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 3,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/christmasapplePizza.jpg",
+                ImagePath = "~/Images/pizzas/cheese-pizza.png",
                 InStock = true,
                 IsPizzaOfTheWeek = false,
-                ImageThumbnailUrl =
-                    "https://gillcleerenpluralsight.blob.core.windows.net/files/christmasapplePizzasmall.jpg",
+                ImageThumbnailPath =
+                    "~/Images/pizzas/cheese-pizza.png",
                 AllergyInformation = ""
             });
 
@@ -122,10 +122,10 @@ namespace core3._1_mvc_monolith.Models
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 3,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cranberryPizza.jpg",
+                ImagePath = "~/Images/pizzas/cheese-pizza.png",
                 InStock = true,
                 IsPizzaOfTheWeek = false,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cranberryPizzasmall.jpg",
+                ImageThumbnailPath = "~/Images/pizzas/cheese-pizza.png",
                 AllergyInformation = ""
             });
 
@@ -138,10 +138,10 @@ namespace core3._1_mvc_monolith.Models
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 1,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/peachPizza.jpg",
+                ImagePath = "~/Images/pizzas/cheese-pizza.png",
                 InStock = false,
                 IsPizzaOfTheWeek = false,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/peachPizzasmall.jpg",
+                ImageThumbnailPath = "~/Images/pizzas/cheese-pizza.png",
                 AllergyInformation = ""
             });
 
@@ -154,10 +154,10 @@ namespace core3._1_mvc_monolith.Models
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 3,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/pumpkinPizza.jpg",
+                ImagePath = "~/Images/pizzas/cheese-pizza.png",
                 InStock = true,
                 IsPizzaOfTheWeek = true,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/pumpkinPizzasmall.jpg",
+                ImageThumbnailPath = "~/Images/pizzas/cheese-pizza.png",
                 AllergyInformation = ""
             });
 
@@ -171,10 +171,10 @@ namespace core3._1_mvc_monolith.Models
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 1,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbPizza.jpg",
+                ImagePath = "~/Images/pizzas/cheese-pizza.png",
                 InStock = true,
                 IsPizzaOfTheWeek = true,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbPizzasmall.jpg",
+                ImageThumbnailPath = "~/Images/pizzas/cheese-pizza.png",
                 AllergyInformation = ""
             });
 
@@ -187,10 +187,10 @@ namespace core3._1_mvc_monolith.Models
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 1,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberryPizza.jpg",
+                ImagePath = "~/Images/pizzas/cheese-pizza.png",
                 InStock = true,
                 IsPizzaOfTheWeek = false,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberryPizzasmall.jpg",
+                ImageThumbnailPath = "~/Images/pizzas/cheese-pizza.png",
                 AllergyInformation = ""
             });
 
@@ -203,11 +203,11 @@ namespace core3._1_mvc_monolith.Models
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 2,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberrycheesecake.jpg",
+                ImagePath = "~/Images/pizzas/cheese-pizza.png",
                 InStock = false,
                 IsPizzaOfTheWeek = false,
-                ImageThumbnailUrl =
-                    "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberrycheesecakesmall.jpg",
+                ImageThumbnailPath =
+                    "~/Images/pizzas/cheese-pizza.png",
                 AllergyInformation = ""
             });
         }

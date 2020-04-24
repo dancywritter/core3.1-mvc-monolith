@@ -45,9 +45,9 @@ namespace core3._1_mvc_monolith.Migrations
 
                     b.Property<int>("CategoryId");
 
-                    b.Property<string>("ImageThumbnailUrl");
+                    b.Property<string>("ImageThumbnailPath");
 
-                    b.Property<string>("ImageUrl");
+                    b.Property<string>("ImagePath");
 
                     b.Property<bool>("InStock");
 

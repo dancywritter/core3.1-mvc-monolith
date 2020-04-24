@@ -63,9 +63,9 @@ namespace core3._1_mvc_monolith.Migrations
 
                     b.Property<int>("CategoryId");
 
-                    b.Property<string>("ImageThumbnailUrl");
+                    b.Property<string>("ImageThumbnailPath");
 
-                    b.Property<string>("ImageUrl");
+                    b.Property<string>("ImagePath");
 
                     b.Property<bool>("InStock");
 
@@ -91,154 +91,154 @@ namespace core3._1_mvc_monolith.Migrations
                             PizzaId = 1,
                             AllergyInformation = "",
                             CategoryId = 1,
-                            ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/applePizzasmall.jpg",
-                            ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/applePizza.jpg",
+                            ImagePath = "~/Images/pizzas/cheese-pizza.png",
+                            ImageThumbnailPath = "~/Images/thumbnails/cheese-small.png",
                             InStock = true,
                             IsPizzaOfTheWeek = true,
-                            LongDescription = "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
-                            Name = "Apple Pizza",
-                            Price = 12.95m,
-                            ShortDescription = "Our famous apple Pizzas!"
+                            LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                            Name = "Cheese Pizza",
+                            Price = 15.50m,
+                            ShortDescription = "Our famous Cheese Pizzas!"
                         },
-                        new
-                        {
-                            PizzaId = 2,
-                            AllergyInformation = "",
-                            CategoryId = 2,
-                            ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/blueberrycheesecakesmall.jpg",
-                            ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/blueberrycheesecake.jpg",
-                            InStock = true,
-                            IsPizzaOfTheWeek = false,
-                            LongDescription = "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
-                            Name = "Blueberry Cheese Cake",
-                            Price = 18.95m,
-                            ShortDescription = "You'll love it!"
-                        },
-                        new
-                        {
-                            PizzaId = 3,
-                            AllergyInformation = "",
-                            CategoryId = 2,
-                            ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cheesecakesmall.jpg",
-                            ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cheesecake.jpg",
-                            InStock = true,
-                            IsPizzaOfTheWeek = false,
-                            LongDescription = "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
-                            Name = "Cheese Cake",
-                            Price = 18.95m,
-                            ShortDescription = "Plain cheese cake. Plain pleasure."
-                        },
+                    new
+                    {
+                        PizzaId = 2,
+                        AllergyInformation = "",
+                        CategoryId = 1,
+                        ImagePath = "~/Images/pizzas/cheese-pizza.png",
+                        ImageThumbnailPath = "~/Images/thumbnails/cheese-small.png",
+                        InStock = true,
+                        IsPizzaOfTheWeek = false,
+                        LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                        Name = "Cheese Pizza",
+                        Price = 16.00m,
+                        ShortDescription = "Our famous Cheese Pizzas!"
+                    },
+                      new
+                      {
+                          PizzaId = 3,
+                          AllergyInformation = "",
+                          CategoryId = 1,
+                          ImagePath = "~/Images/pizzas/chicken-cheese-pizza.png",
+                          ImageThumbnailPath = "~/Images/thumbnails/chicken-small.png",
+                          InStock = true,
+                          IsPizzaOfTheWeek = true,
+                          LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                          Name = "Chicken Trio Pizza",
+                          Price = 15.00m,
+                          ShortDescription = "3 Chickens made it!"
+                      },
                         new
                         {
                             PizzaId = 4,
                             AllergyInformation = "",
                             CategoryId = 1,
-                            ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cherryPizzasmall.jpg",
-                            ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cherryPizza.jpg",
+                            ImagePath = "~/Images/pizzas/chicken-cheese-pizza.png",
+                            ImageThumbnailPath = "~/Images/thumbnails/chicken-small.png",
                             InStock = true,
                             IsPizzaOfTheWeek = false,
-                            LongDescription = "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
-                            Name = "Cherry Pizza",
-                            Price = 15.95m,
-                            ShortDescription = "A summer classic!"
+                            LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                            Name = "Chicken Trio Pizza",
+                            Price = 18.95m,
+                            ShortDescription = "3 Chickens made it!"
                         },
-                        new
-                        {
-                            PizzaId = 5,
-                            AllergyInformation = "",
-                            CategoryId = 3,
-                            ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/christmasapplePizzasmall.jpg",
-                            ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/christmasapplePizza.jpg",
-                            InStock = true,
-                            IsPizzaOfTheWeek = false,
-                            LongDescription = "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
-                            Name = "Christmas Apple Pizza",
-                            Price = 13.95m,
-                            ShortDescription = "Happy holidays with this Pizza!"
-                        },
-                        new
-                        {
-                            PizzaId = 6,
-                            AllergyInformation = "",
-                            CategoryId = 3,
-                            ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cranberryPizzasmall.jpg",
-                            ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cranberryPizza.jpg",
-                            InStock = true,
-                            IsPizzaOfTheWeek = false,
-                            LongDescription = "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
-                            Name = "Cranberry Pizza",
-                            Price = 17.95m,
-                            ShortDescription = "A Christmas favorite"
-                        },
-                        new
-                        {
-                            PizzaId = 7,
-                            AllergyInformation = "",
-                            CategoryId = 1,
-                            ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/peachPizzasmall.jpg",
-                            ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/peachPizza.jpg",
-                            InStock = false,
-                            IsPizzaOfTheWeek = false,
-                            LongDescription = "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
-                            Name = "Peach Pizza",
-                            Price = 15.95m,
-                            ShortDescription = "Sweet as peach"
-                        },
-                        new
-                        {
-                            PizzaId = 8,
-                            AllergyInformation = "",
-                            CategoryId = 3,
-                            ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/pumpkinPizzasmall.jpg",
-                            ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/pumpkinPizza.jpg",
-                            InStock = true,
-                            IsPizzaOfTheWeek = true,
-                            LongDescription = "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
-                            Name = "Pumpkin Pizza",
-                            Price = 12.95m,
-                            ShortDescription = "Our Halloween favorite"
-                        },
+                          new
+                          {
+                              PizzaId = 5,
+                              AllergyInformation = "",
+                              CategoryId = 1,
+                              ImagePath = "~/Images/pizzas/pepperoni-pizza.png",
+                              ImageThumbnailPath = "~/Images/thumbnails/pepperoni-small.png",
+                              InStock = true,
+                              IsPizzaOfTheWeek = true,
+                              LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                              Name = "Pepparoni Chedder Pizza",
+                              Price = 17.50m,
+                              ShortDescription = "Have a party with this Pizza!"
+                          },
+                            new
+                            {
+                                PizzaId = 6,
+                                AllergyInformation = "",
+                                CategoryId = 1,
+                                ImagePath = "~/Images/pizzas/meat-pizza.png",
+                                ImageThumbnailPath = "~/Images/thumbnails/meat-small.png",
+                                InStock = true,
+                                IsPizzaOfTheWeek = false,
+                                LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                                Name = "Spicy Meat Pizza",
+                                Price = 12.95m,
+                                ShortDescription = "If you can handle spice!"
+                            },
+                              new
+                              {
+                                  PizzaId = 7,
+                                  AllergyInformation = "",
+                                  CategoryId = 1,
+                                  ImagePath = "~/Images/pizzas/meat-pizza.png",
+                                  ImageThumbnailPath = "~/Images/thumbnails/meat-small.png",
+                                  InStock = true,
+                                  IsPizzaOfTheWeek = true,
+                                  LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                                  Name = "Spicy Meat Pizza",
+                                  Price = 19.00m,
+                                  ShortDescription = "Real Spice Real Pizza!"
+                              },
+                                new
+                                {
+                                    PizzaId = 8,
+                                    AllergyInformation = "",
+                                    CategoryId = 1,
+                                    ImagePath = "~/Images/pizzas/veg-pizza.png",
+                                    ImageThumbnailPath = "~/Images/thumbnails/veg-small.png",
+                                    InStock = true,
+                                    IsPizzaOfTheWeek = true,
+                                    LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                                    Name = "Vegetarian Pizza",
+                                    Price = 14.50m,
+                                    ShortDescription = "We care about all!"
+                                },
                         new
                         {
                             PizzaId = 9,
                             AllergyInformation = "",
                             CategoryId = 1,
-                            ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbPizzasmall.jpg",
-                            ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbPizza.jpg",
+                            ImagePath = "~/Images/pizzas/pepperoni-pizza.png",
+                            ImageThumbnailPath = "~/Images/thumbnails/pepperoni-small.png",
                             InStock = true,
                             IsPizzaOfTheWeek = true,
-                            LongDescription = "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
-                            Name = "Rhubarb Pizza",
-                            Price = 15.95m,
-                            ShortDescription = "My God, so sweet!"
+                            LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                            Name = "Pepparoni Chedder Pizza",
+                            Price = 17.50m,
+                            ShortDescription = "Have a party with this Pizza!"
                         },
                         new
                         {
                             PizzaId = 10,
                             AllergyInformation = "",
                             CategoryId = 1,
-                            ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberryPizzasmall.jpg",
-                            ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberryPizza.jpg",
+                            ImagePath = "~/Images/pizzas/cheese-pizza.png",
+                            ImageThumbnailPath = "~/Images/thumbnails/cheese-small.png",
                             InStock = true,
                             IsPizzaOfTheWeek = false,
-                            LongDescription = "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
-                            Name = "Strawberry Pizza",
-                            Price = 15.95m,
-                            ShortDescription = "Our delicious strawberry Pizza!"
+                            LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                            Name = "Cheese Pizza",
+                            Price = 16.00m,
+                            ShortDescription = "Our famous Cheese Pizzas!"
                         },
                         new
                         {
                             PizzaId = 11,
                             AllergyInformation = "",
-                            CategoryId = 2,
-                            ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberrycheesecakesmall.jpg",
-                            ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberrycheesecake.jpg",
-                            InStock = false,
+                            CategoryId = 1,
+                            ImagePath = "~/Images/pizzas/chicken-cheese-pizza.png",
+                            ImageThumbnailPath = "~/Images/thumbnails/chicken-small.png",
+                            InStock = true,
                             IsPizzaOfTheWeek = false,
-                            LongDescription = "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.",
-                            Name = "Strawberry Cheese Cake",
+                            LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                            Name = "Chicken Trio Pizza",
                             Price = 18.95m,
-                            ShortDescription = "You'll love it!"
+                            ShortDescription = "3 Chickens made it!"
                         });
                 });
 

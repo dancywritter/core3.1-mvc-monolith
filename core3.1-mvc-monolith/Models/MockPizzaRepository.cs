@@ -12,11 +12,162 @@ namespace core3._1_mvc_monolith.Models
         public IEnumerable<Pizza> AllPizzas =>
             new List<Pizza>
             {
-                new Pizza {PizzaId = 1, Name="Strawberry Pizza", Price=15.95M, ShortDescription="Lorem Ipsum", LongDescription="Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.", Category = _categoryRepository.AllCategories.ToList()[0],ImageUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/strawberryPizza.jpg", InStock=true, IsPizzaOfTheWeek=false, ImageThumbnailUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/strawberryPizzasmall.jpg"},
-                new Pizza {PizzaId = 2, Name="Cheese cake", Price=18.95M, ShortDescription="Lorem Ipsum", LongDescription="Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.", Category = _categoryRepository.AllCategories.ToList()[1],ImageUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/cheesecake.jpg", InStock=true, IsPizzaOfTheWeek=false, ImageThumbnailUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/cheesecakesmall.jpg"},
-                new Pizza {PizzaId = 3, Name="Rhubarb Pizza", Price=15.95M, ShortDescription="Lorem Ipsum", LongDescription="Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.", Category = _categoryRepository.AllCategories.ToList()[0],ImageUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbPizza.jpg", InStock=true, IsPizzaOfTheWeek=true, ImageThumbnailUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbPizzasmall.jpg"},
-                new Pizza {PizzaId = 4, Name="Pumpkin Pizza", Price=12.95M, ShortDescription="Lorem Ipsum", LongDescription="Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Pizza chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Pizza muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Pizza cake danish lemon drops. Brownie cupcake dragée gummies.", Category = _categoryRepository.AllCategories.ToList()[2],ImageUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/pumpkinPizza.jpg", InStock=true, IsPizzaOfTheWeek=true, ImageThumbnailUrl="https://gillcleerenpluralsight.blob.core.windows.net/files/pumpkinPizzasmall.jpg"}
-            };
+                 new Pizza
+                         {
+                             PizzaId = 1,
+                             AllergyInformation = "",
+                             CategoryId = 1,
+                             ImagePath = "~/Images/pizzas/cheese-pizza.png",
+                             ImageThumbnailPath = "~/Images/thumbnails/cheese-small.png",
+                             InStock = true,
+                             IsPizzaOfTheWeek = true,
+                             LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                             Name = "Cheese Pizza",
+                             Price = 15.50m,
+                             ShortDescription = "Our famous Cheese Pizzas!"
+                         },
+                    new Pizza
+                    {
+                        PizzaId = 2,
+                        AllergyInformation = "",
+                        CategoryId = 1,
+                        ImagePath = "~/Images/pizzas/cheese-pizza.png",
+                        ImageThumbnailPath = "~/Images/thumbnails/cheese-small.png",
+                        InStock = true,
+                        IsPizzaOfTheWeek = false,
+                        LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                        Name = "Cheese Pizza",
+                        Price = 16.00m,
+                        ShortDescription = "Our famous Cheese Pizzas!"
+                    },
+                      new Pizza
+                      {
+                          PizzaId = 3,
+                          AllergyInformation = "",
+                          CategoryId = 1,
+                          ImagePath = "~/Images/pizzas/chicken-cheese-pizza.png",
+                          ImageThumbnailPath = "~/Images/thumbnails/chicken-small.png",
+                          InStock = true,
+                          IsPizzaOfTheWeek = true,
+                          LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                          Name = "Chicken Trio Pizza",
+                          Price = 15.00m,
+                          ShortDescription = "3 Chickens made it!"
+                      },
+                        new Pizza
+                        {
+                            PizzaId = 4,
+                            AllergyInformation = "",
+                            CategoryId = 1,
+                            ImagePath = "~/Images/pizzas/chicken-cheese-pizza.png",
+                            ImageThumbnailPath = "~/Images/thumbnails/chicken-small.png",
+                            InStock = true,
+                            IsPizzaOfTheWeek = false,
+                            LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                            Name = "Chicken Trio Pizza",
+                            Price = 18.95m,
+                            ShortDescription = "3 Chickens made it!"
+                        },
+                          new Pizza
+                          {
+                              PizzaId = 5,
+                              AllergyInformation = "",
+                              CategoryId = 1,
+                              ImagePath = "~/Images/pizzas/pepperoni-pizza.png",
+                              ImageThumbnailPath = "~/Images/thumbnails/pepperoni-small.png",
+                              InStock = true,
+                              IsPizzaOfTheWeek = true,
+                              LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                              Name = "Pepparoni Chedder Pizza",
+                              Price = 17.50m,
+                              ShortDescription = "Have a party with this Pizza!"
+                          },
+                            new Pizza
+                            {
+                                PizzaId = 6,
+                                AllergyInformation = "",
+                                CategoryId = 1,
+                                ImagePath = "~/Images/pizzas/meat-pizza.png",
+                                ImageThumbnailPath = "~/Images/thumbnails/meat-small.png",
+                                InStock = true,
+                                IsPizzaOfTheWeek = false,
+                                LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                                Name = "Spicy Meat Pizza",
+                                Price = 12.95m,
+                                ShortDescription = "If you can handle spice!"
+                            },
+                              new Pizza
+                              {
+                                  PizzaId = 7,
+                                  AllergyInformation = "",
+                                  CategoryId = 1,
+                                  ImagePath = "~/Images/pizzas/meat-pizza.png",
+                                  ImageThumbnailPath = "~/Images/thumbnails/meat-small.png",
+                                  InStock = true,
+                                  IsPizzaOfTheWeek = true,
+                                  LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                                  Name = "Spicy Meat Pizza",
+                                  Price = 19.00m,
+                                  ShortDescription = "Real Spice Real Pizza!"
+                              },
+                                new Pizza
+                                {
+                                    PizzaId = 8,
+                                    AllergyInformation = "",
+                                    CategoryId = 1,
+                                    ImagePath = "~/Images/pizzas/veg-pizza.png",
+                                    ImageThumbnailPath = "~/Images/thumbnails/veg-small.png",
+                                    InStock = true,
+                                    IsPizzaOfTheWeek = true,
+                                    LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                                    Name = "Vegetarian Pizza",
+                                    Price = 14.50m,
+                                    ShortDescription = "We care about all!"
+                                },
+                                    new Pizza
+                        {
+                            PizzaId = 9,
+                            AllergyInformation = "",
+                            CategoryId = 1,
+                            ImagePath = "~/Images/pizzas/pepperoni-pizza.png",
+                            ImageThumbnailPath = "~/Images/thumbnails/pepperoni-small.png",
+                            InStock = true,
+                            IsPizzaOfTheWeek = true,
+                            LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                            Name = "Pepparoni Chedder Pizza",
+                            Price = 17.50m,
+                            ShortDescription = "Have a party with this Pizza!"
+                        },
+                                        new Pizza
+                        {
+                            PizzaId = 10,
+                            AllergyInformation = "",
+                            CategoryId = 1,
+                            ImagePath = "~/Images/pizzas/cheese-pizza.png",
+                            ImageThumbnailPath = "~/Images/thumbnails/cheese-small.png",
+                            InStock = true,
+                            IsPizzaOfTheWeek = false,
+                            LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                            Name = "Cheese Pizza",
+                            Price = 16.00m,
+                            ShortDescription = "Our famous Cheese Pizzas!"
+                        },
+                                            new Pizza
+                        {
+                            PizzaId = 11,
+                            AllergyInformation = "",
+                            CategoryId = 1,
+                            ImagePath = "~/Images/pizzas/chicken-cheese-pizza.png",
+                            ImageThumbnailPath = "~/Images/thumbnails/chicken-small.png",
+                            InStock = true,
+                            IsPizzaOfTheWeek = false,
+                            LongDescription = "In a glass or plastic bowl, combine yeast, water, and sugar (the water can just be water from the tap, make sure it's below 100°F). Stir to dissolve the yeast and let the yeast bloom for 15 minutes. Stir in 1 cup flour, add salt, and then stir in another cup of flour (the remaining cup of flour will be your bench flour and added flour). Dump mixture onto kneading board and work in last cup of flour, kneading until dough is soft and elastic, but not sticky. Form dough into a ball. In another bowl, pour in the 1 tbsp olive oil and spread around. Coat ball of dough with oil and cover bowl with a damp towel and let dough rise for 40 minutes.",
+                            Name = "Chicken Trio Pizza",
+                            Price = 18.95m,
+                            ShortDescription = "3 Chickens made it!"
+
+                        }
+                                                 };
 
         public IEnumerable<Pizza> PizzasOfTheWeek { get; }
 

@@ -32,8 +32,8 @@ namespace core3._1_mvc_monolith.Migrations
                     LongDescription = table.Column<string>(nullable: true),
                     AllergyInformation = table.Column<string>(nullable: true),
                     Price = table.Column<decimal>(nullable: false),
-                    ImageUrl = table.Column<string>(nullable: true),
-                    ImageThumbnailUrl = table.Column<string>(nullable: true),
+                    ImagePath = table.Column<string>(nullable: true),
+                    ImageThumbnailPath = table.Column<string>(nullable: true),
                     IsPizzaOfTheWeek = table.Column<bool>(nullable: false),
                     InStock = table.Column<bool>(nullable: false),
                     CategoryId = table.Column<int>(nullable: false)
